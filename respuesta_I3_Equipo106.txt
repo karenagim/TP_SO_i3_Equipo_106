@@ -13,4 +13,16 @@ C- Pasos realizados:
  -  git add .
  -  git commit -m "Beta merge- repo actualizado" 
  -  git push
+
+D- La rama de Beta queda actualizada pero la de Gamma no.
+
+E- No hubo problemas, en si, pero tuvimos que tener cuidado y estar atentos a la hora de ver en que rama estabamos posicionados, para no hacer el merge del main hacia la rama de Gamma, cuando debería ser de la rama Gamma hacia la rama main, para tener en la rama main todo lo de la rama Gamma y tambien el contenido que ya estaba en ella.
+
+F- Pasos realizados: 
+   -----------------------------
+ -  git clone -b NombreRamaBeta url de la rama
+ -  cd TP_SO_i3_Equipo_106(carpeta que me genero el clone, al posicionarme en esta carpeta ya estaba en la rama de Beta)
+ -  git add .(luego de modificar el archivo bet.txt)
+ -  git commit -m "Punto 7 Gamma"(para que mi compañera de grupo sepa que ya se realizo el punto 7)
+ -  git push(para subir los cambios a la rama)
    
