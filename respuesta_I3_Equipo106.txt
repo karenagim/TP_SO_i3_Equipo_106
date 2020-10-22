@@ -1,0 +1,16 @@
+Respuestas Interacción 3:
+===========================
+
+A- El Master queda con el archivo beta.txt con las modificaciones hechas en conjunto por Beta y Gamma.
+
+B- Si pude ver todas las modificaciones realizadas
+
+C- Pasos realizados: 
+   -----------------------------
+ -  git clone linkRepo
+ -  cd TP_SO_i3_Equipo_106
+ -  git merge origin/NombreRamaGamma [No tenemos ALFA]
+ -  git add .
+ -  git commit -m "Beta merge- repo actualizado" 
+ -  git push
+   
